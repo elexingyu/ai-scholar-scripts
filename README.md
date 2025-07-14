@@ -10,11 +10,16 @@
 
 ## 脚本列表
 
-- `grant_to_zotero_converter.py`: 将 NIH 基金数据（CSV 格式）转换为 Zotero 条目。
-- `news_to_zotero_converter.py`: 将新闻搜索结果（CSV 格式）转换为 Zotero 网页条目。
-- `podcast_to_zotero_converter.py`: 将播客元数据（CSV 格式）转换为 Zotero 音频条目。
-- `twitter_to_zotero_converter.py`: 将 Twitter 推文数据（JSON 格式）转换为 Zotero 社交媒体帖子条目。
-- `youtube_to_zotero_converter.py`: 将 YouTube 视频数据（JSON 格式）转换为 Zotero 视频条目。
+- `grant_to_zotero_converter.py`: 将 NIH 基金数据导出的结果（CSV 格式）转换为 Zotero 条目。
+    [RePORT ⟩ RePORTER](https://reporter.nih.gov/)
+- `news_to_zotero_converter.py`: 将searXNG元搜索引擎搜索的新闻搜索结果（CSV 格式，使用Instant Data Scraper爬取）转换为 Zotero 网页条目。
+    [Inetol's SearXNG](https://search.inetol.net/)
+- `podcast_to_zotero_converter.py`: 将lisa barrett官方网站的播客清单元数据（CSV 格式，使用Instant Data Scraper爬取）转换为 Zotero 音频条目。
+    [Podcasts | Lisa Feldman Barrett](https://lisafeldmanbarrett.com/podcasts/)
+- `twitter_to_zotero_converter.py`: 将 apify 爬取后导出的Twitter 推文数据（JSON 格式）转换为 Zotero 社交媒体帖子条目。
+    [Twitter User Tweets Scraper](https://console.apify.com/actors/UXsZhGrxSjh9wFToU/input)
+- `youtube_to_zotero_converter.py`: 将 apify 爬取后导出的 YouTube 视频数据（JSON 格式）转换为 Zotero 视频条目。
+    [Youtube Channel Videos Details Scraper](https://console.apify.com/actors/PSTcrs0S4axCRoSQq/input)
 
 ## 环境要求
 
